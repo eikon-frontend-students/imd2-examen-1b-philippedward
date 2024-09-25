@@ -74,6 +74,26 @@ video {
 }
 
 /* 01. Sélecteurs CSS */
+h2,
+h3 {
+  font-family: "Playfair Display";
+}
+
+.section-sport h3 {
+  color: #c1121f;
+}
+
+.section-culture h3 {
+  color: #669bbc;
+}
+
+.section-regions .highlight {
+  font-weight: bold;
+}
+
+.highlight.colored {
+  background: #fdf0d5;
+}
 
 /* 02. Centrer horizontalement */
 
@@ -83,6 +103,7 @@ video {
   background: #fdf0d5;
   border: 1px solid #c1121f;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .calltoaction {
@@ -92,6 +113,16 @@ video {
   color: #fdf0d5;
   font-family: "Playfair Display";
   text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 03. Centrer verticalement */
